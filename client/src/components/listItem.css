@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    transition: all .25s ease;
+    border-radius: 4px;
+}
+
+th {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+tr:nth-of-type(even) td {
+    background-color: #efefef;
+}
+
+tr:hover td {
+    background-color: #e6e6e6;
+}
+
+h1.header {
+    border-top: 1px solid #ccc;
+    padding: 15px 0px 10px 0px
+}
+
+.header {
+    padding: 10px 20px;
+    margin: 10px 0px;
+    width: 100%;
+}
