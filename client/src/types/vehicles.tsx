@@ -1,3 +1,8 @@
+export type VehicleDataSet = {
+    VehicleData: FilteredVehicles[];
+    Filter: Record<string, (string | number | Date)[]>;
+}
+
 export type FilteredVehicles = {
     title: string;
     vehicles?: Vehicle[];
@@ -21,7 +26,6 @@ export type Vehicle = {
 export const vehicleKeys = [
     "make",
     "model",
-    "trim",
     "colour",
     "price",
     "transmission",

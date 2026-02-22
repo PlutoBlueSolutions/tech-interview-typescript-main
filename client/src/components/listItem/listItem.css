@@ -24,12 +24,12 @@ tr:hover td {
     background-color: #e6e6e6;
 }
 
-h1.header {
+h1.table-header {
     border-top: 1px solid #ccc;
     padding: 15px 0px 10px 0px
 }
 
-.header {
+.table-header {
     padding: 10px 20px;
     margin: 10px 0px;
     width: 100%;
